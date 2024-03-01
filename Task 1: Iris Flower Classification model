@@ -1,0 +1,33 @@
+Iris Flower Classification
+The Iris flower data set, often known as Fisher's Iris data set, is a well-known multivariate data set that is used to test various machine learning algorithms.There are three species of iris flowers: setosa, versicolor, and virginica, which differ in their dimensions. Assume you have measurements of iris blooms categorized by species, and your job is to create a machine learning model that can learn from and classify the iris species.
+
+**Based on measurements of Sepal Width, Sepal Length, Petal Length, and Petal Width from all three categories. We need to classify them depending on their measurements.
+Steps
+**1. Importing requried libraries
+2. Loading of dataset
+3. Display Summary Statistics
+4. Data Visualization
+4.1 Histograms(Uniariate analysis)
+4.2 Scatter plots to visualize relation between variables(bivariate analysis)
+4.3 Pair plots(Multivariate analysis)
+4.4 Correlation matrix
+5. Data Modelling
+5.1 Train-Test-Split
+5.2 Decision Tree classification(ID3 Classifier)
+5.3 Confusion matrix
+5.4 Model and accuracy sore
+6. Prediction of species
+
+Step 1:Importing requried libraries
+#imported required libraries
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+step 2:Loading Dataset
+#loading dataset
+df = pd.read_csv('IRIS.csv')
+df
+
+df - pd.csv('IRIS.csv')
